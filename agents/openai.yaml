@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 短视频制作"
+  short_description: "从锁定剧本到生成、配音、字幕、剪辑与质检的低成本工作流"
+  default_prompt: "使用 $ai-short-video-production 把我的题材制作成可审阅、成本可控的竖屏 AI 短视频。"

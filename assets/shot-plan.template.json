@@ -1,0 +1,44 @@
+{
+  "project_title": "示例 AI 短视频",
+  "version": "v1",
+  "target": {
+    "ratio": "9:16",
+    "resolution": "720P",
+    "fps": 30
+  },
+  "bailian": {
+    "model": "wan3.0-video",
+    "region": "cn-beijing",
+    "workspace_id": "",
+    "resolution": "720P",
+    "ratio": "9:16",
+    "audio": true,
+    "prompt_extend": true,
+    "watermark": false,
+    "currency": "CNY",
+    "price_per_second": null,
+    "price_verified_at": "填写本次核对日期",
+    "price_source": "填写当前官方价格页或控制台链接"
+  },
+  "shots": [
+    {
+      "id": "shot-01",
+      "title": "代表性镜头",
+      "duration_seconds": 5,
+      "planned_attempts": 1,
+      "dialogue": "",
+      "action": "",
+      "prompt": "在此填写本镜头提示词",
+      "media": [],
+      "reference_video_duration_seconds": 0,
+      "prompt_file": "prompts/shot-01.txt",
+      "output_file": "output/raw/shot-01.mp4"
+    }
+  ],
+  "additional_costs": [
+    {
+      "label": "参考图、配音、口型或放大等额外项目",
+      "amount": 0.0
+    }
+  ]
+}
